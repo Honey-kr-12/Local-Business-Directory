@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Business Directory</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Local Business Directory</h1>
+        <div class="filter-sort">
+          <label for="filter">Filter by Neighborhood:
+            <select id="filter">
+                <option value="all">All Neighborhoods</option>
+                <option value="downtown">Downtown</option>
+                <option value="uptown">Uptown</option>
+                <option value="east-side">East Side</option>
+                <option value="west-side">West Side</option>
+              </select>
+          </label>
+      
+      
+          <label for="sort">Sort by Reviews:
+            <select id="sort">
+                <option value="default">Default</option>
+                <option value="high-to-low">High to Low</option>
+                <option value="low-to-high">Low to High</option>
+              </select>
+            </div>
+          </label>
+         
+    </nav>
+
+    <div class="business-container">
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
